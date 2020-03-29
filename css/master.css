@@ -11,7 +11,7 @@ body {
 
 .box.navigation .font {
   font-family: arial, sans-serif;
-  font-weight: 400px;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -83,25 +83,20 @@ body {
   vertical-align: middle;
 }
 
-
-
 .outer-wrapper {
-width:380px;
-margin: auto;
-
-
+  width:  380px;
+  margin: auto;
 }
 
-.signup-container{
-
+.signup-container {
   border: solid 1px #c7c7c7;
   background-color: #fff;
   color: #666;
 }
 
 .sign-in-button {
-  margin-left:12px;
-  background-color: #0077C5;
+  margin-left: 12px;
+  background-color: #0077c5;
   color: #fff;
   border: solid 1px #4c4c4c;
   border-radius: 4px;
@@ -109,77 +104,73 @@ margin: auto;
   height: 36px;
 }
 
+.gray {
+  color: #505050;
+}
 
-
-.gray {color: #505050;}
-
-.blue {color: #0077C5;}
+.blue {
+  color: #0077c5;
+}
 
 .subsidiaries {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-left: 20px;
- display: flex;
- align-items: center;
- font-size: 1.20em;
- color:#777;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  color: #777;
 }
 
 .subsidiaries span {
-  margin: 5px 0px 17px 9px;  padding: 0px;
+  margin: 5px 0 17px 9px;
+  padding: 0;
 }
 
 .subsidiaries img {
-   width: 25px;
-   height: auto;
-   border-radius: 50%;
-   margin: 0px;
-   padding: 0px;}
-
+  width: 25px;
+  height: auto;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+}
 
 .signup-container form {
-  font-family: "AvenirNext", Avenir,
-  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: block;
   position: relative;
   padding: 20px 35px 20px;
-
 }
 
 .signup-container td {
-
-  padding: 15px 0px 15px;
+  padding: 15px 0 15px;
 }
 
 .signup-container label {
-  font-size:0.9em;
+  font-size: 0.9em;
 }
 
 .signup-container span {
-  font-size:0.65em;
-
+  font-size: 0.65em;
 }
 
-
-.signup-container input[type=text]{
+.signup-container input[type=text] {
   height: 30px;
   display: block;
-  width:100%;
-  border:solid 1px #ccc;
-  border-radius:3px;
+  width: 100%;
+  border: solid 1px #ccc;
+  border-radius: 3px;
   margin: 9px 0 0 0;
 }
 
 .signup-container table {
-width:100%;
-
+  width: 100%;
 }
-
 
 .signup-container button {
   outline: none;
   display: block;
   width: 100%;
-  background-color: #0077C5;
+  background-color: #0077c5;
   color: #fff;
   border: none;
   height: 30px;
@@ -188,14 +179,9 @@ width:100%;
 }
 
 .signup-container button .material-icons,
-.signup-container button span{
-
+.signup-container button span {
   display: inline-block;
-
-
 }
-
-
 
 .privacy-terms {
   display: block;
@@ -204,44 +190,42 @@ width:100%;
   width: 81%;
   line-height: 19px;
   text-align: center;
-  }
+}
 
-
-  .intuit-logo{
+.intuit-logo {
   display: block;
   text-align: center;
-  margin: 0px;
-  padding: 0px;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  .headline {
-  font-family: "AvenirNext", Avenir,
-  "Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding: 10px;
-    text-align: center;
-  }
-   .headline a {
-     text-decoration: none;
-   }
-   .headline p{
-     margin: 0px;
-     padding: 0px;
-    font-weight: normal;
-     font-size: 0.9em;
-   }
+.headline {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 10px;
+  text-align: center;
+}
 
+.headline a {
+  text-decoration: none;
+}
+
+.headline p {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 0.9em;
+}
 
 .bottom {
   font-size: 0.65em;
-  background-color: #ECEEF1;
+  background-color: #eceef1;
   height: 40px;
   line-height: 45px;
   text-align: center;
 }
 
 footer {
-  font-family: "AvenirNext", Avenir,
-  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 70%;
   margin: auto;
   padding: 35px;
@@ -250,14 +234,13 @@ footer {
   color: #333;
 }
 
-.signup-container button .material-icons{
-  font-size:1.2em;
+.signup-container button .material-icons {
+  font-size: 1.2em;
 }
 
-.create-acc{
-
-display: inline-block;
-font-size: 1.6em;
-padding-bottom: 5px;
-margin: 0px 0px 6px;
+.create-acc {
+  display: inline-block;
+  font-size: 1.6em;
+  padding-bottom: 5px;
+  margin: 0 0 6px;
 }
