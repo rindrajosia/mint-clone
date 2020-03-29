@@ -176,6 +176,7 @@ width:100%;
 
 
 .signup-container button {
+  outline: none;
   display: block;
   width: 100%;
   background-color: #0077C5;
