@@ -213,8 +213,16 @@ a:hover{
 
 .headline {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding: 10px;
+  padding: 30px 0px 10px;
   text-align: center;
+}
+
+
+.headline strong {
+  font-size: 1.5em;
+  font-weight: normal;
+  display: block;
+  margin-bottom: 12px;
 }
 
 .headline a {
