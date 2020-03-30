@@ -2,7 +2,6 @@ body {
   margin: 0;
   background-color: #eceef1;
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-
 }
 
 a {
@@ -136,7 +135,6 @@ a:hover {
 }
 
 .signup-container form {
-
   display: block;
   position: relative;
   padding: 20px 35px 20px;
@@ -153,15 +151,14 @@ a:hover {
 .signup-container span {
   font-size: 0.65em;
 }
+
 .my-input {
-  margin: 0px 10px 25px;
+  margin: 0 10px 25px;
 }
 
 .signup-container input[type=tel],
 .signup-container input[type=email],
-.signup-container input[type=password]
- {
-
+.signup-container input[type=password] {
   height: 30px;
   display: block;
   width: 100%;
@@ -209,20 +206,16 @@ a:hover {
 }
 
 .headline {
-
   padding: 30px 0 10px;
   text-align: center;
 }
 
-
 .password {
-background-image:url('../assets/img/open_lock.png');
-background-repeat: no-repeat;
-background-position: center right;
-background-size: 6%
+  background-image: url('../assets/img/open_lock.png');
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 6%;
 }
-
-
 
 .headline a {
   text-decoration: none;
@@ -236,7 +229,6 @@ background-size: 6%
 }
 
 .bottom {
-
   font-size: 0.65em;
   background-color: #eceef1;
   height: 40px;
@@ -245,7 +237,6 @@ background-size: 6%
 }
 
 footer {
-
   width: 70%;
   margin: auto;
   padding: 35px;
@@ -266,8 +257,8 @@ footer {
 }
 
 .my-footer ul {
-padding: 0px;
-margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 .my-footer ul li {
