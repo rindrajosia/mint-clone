@@ -163,8 +163,15 @@ a:hover{
 .signup-container span {
   font-size: 0.65em;
 }
+.my-input {
+  margin: 0px 10px 25px;
+}
 
-.signup-container input[type=text] {
+.signup-container input[type=tel],
+.signup-container input[type=email],
+.signup-container input[type=password]
+ {
+
   height: 30px;
   display: block;
   width: 100%;
@@ -217,6 +224,12 @@ a:hover{
   text-align: center;
 }
 
+.password {
+background-image:url('../assets/img/open_lock.png');
+background-repeat: no-repeat;
+background-position: center right;
+background-size: 6%
+}
 
 .headline strong {
   font-size: 1.5em;
@@ -265,4 +278,14 @@ footer {
   font-size: 1.6em;
   padding-bottom: 5px;
   margin: 0 0 6px;
+}
+
+.my-footer ul {
+padding: 0px;
+margin: 0px;
+}
+
+.my-footer ul li {
+  display: inline-block;
+  list-style: none;
 }

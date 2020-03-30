@@ -64,39 +64,34 @@
 
 
            <form action="#" method="post">
-            <table>
-              <tr>
-                <td>
-                  <label>Email address</label>
-                  <input type="text" name="email" value="">
-                </td>
-              </tr>
 
-              <tr>
-                <td>
-                  <label>Phone (recommended)</label>
-                  <input type="text" name="Phone" value="">
-                </td>
-              </tr>
 
-              <tr>
-                <td>
-                  <label>Password</label>
-                  <input type="text" name="password" value="">
-                  <span> &nbsp; Standard call, messaging or data rates may apply.</span>
-                </td>
-              </tr>
+<div class="my-input">
+  <label>Email address</label>
+  <input type="email" name="email" value="">
 
-              <tr>
-                <td>
-                 <button type="button" name="button">
-                   <i class="material-icons">lock</i>
-                   <i class="create-acc">Create Account</i>
-                 </button>
-                </td>
-              </tr>
+</div>
+<div class="my-input">
 
-            </table>
+      <label>Phone (recommended)</label>
+      <input type="tel" name="tel" value="">
+
+</div>
+<div class="my-input">
+  <label>Password</label>
+  <input class="password" type="password" name="password" value="">
+  <span> &nbsp; Standard call, messaging or data rates may apply.</span>
+
+</div>
+
+<div class="my-input">
+  <button type="button" name="button">
+    <i class="material-icons">lock</i>
+    <i class="create-acc">Create Account</i>
+  </button>
+</div>
+
+
 
 
            <div class="privacy-terms">
@@ -110,15 +105,21 @@
 
 
   <div class="bottom">
-     Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
+     Invisible reCAPTCHA by Google  <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
   </div>
 
 
 </div>
 </main>
 
-      <footer class="">
-        Legal &nbsp; &nbsp; Privacy &nbsp; &nbsp; Security  <br>
+      <footer class="my-footer">
+        <ul>
+          <li><a href="#">  Legal </a> </li>
+          <li><a href="#">   Privacy  </a> </li>
+            <li><a href="#">  Security  </a> </li>
+
+        </ul>
+
        © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
        Terms and conditions, features, support, pricing, and service options subject to change without notice.
       </footer>
