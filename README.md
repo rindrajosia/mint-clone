@@ -41,7 +41,7 @@ To use it locally, you need to :
 #  Contributing
 
 Contributions, issues and feature requests are welcome!
-Feel free to check the **[issues](https://github.com/gabrie-lhilarion/youtube-homepage/issues)** page.
+Feel free to check the **[issues](https://github.com/rindrajosia/mint-clone/issues)** page.
 
 
 #  Show your support
