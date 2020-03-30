@@ -3,10 +3,11 @@ body {
   background-color: #eceef1;
 }
 
-a {text-decoration: none;
-
+a {
+  text-decoration: none;
 }
-a:hover{
+
+a:hover {
   text-decoration: underline;
 }
 
@@ -18,11 +19,7 @@ a:hover{
 
 .box.navigation .font {
   font-family: arial, sans-serif;
-<<<<<<< HEAD
-  font-weight: bold;
-=======
   font-weight: 400;
->>>>>>> 7eabe38a1b295136d58c979b69c9b34bda154b55
   font-style: normal;
 }
 
@@ -95,7 +92,7 @@ a:hover{
 }
 
 .outer-wrapper {
-  width:  380px;
+  width: 380px;
   margin: auto;
 }
 
@@ -220,10 +217,11 @@ a:hover{
 
 .headline {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding: 30px 0px 10px;
+  padding: 30px 0 10px;
   text-align: center;
 }
 
+<<<<<<< HEAD
 .password {
 background-image:url('../assets/img/open_lock.png');
 background-repeat: no-repeat;
@@ -231,6 +229,8 @@ background-position: center right;
 background-size: 6%
 }
 
+=======
+>>>>>>> 9a48f658d6047a9d4155873bcf2460d6890d2989
 .headline strong {
   font-size: 1.5em;
   font-weight: normal;
@@ -250,8 +250,7 @@ background-size: 6%
 }
 
 .bottom {
-  font-family: "AvenirNext", Avenir,
-  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.65em;
   background-color: #eceef1;
   height: 40px;
