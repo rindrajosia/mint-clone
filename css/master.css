@@ -1,0 +1,267 @@
+body {
+  margin: 0;
+  background-color: #eceef1;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box.navigation .font {
+  font-family: arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navigation-column-right button {
+  background-color: #0077c5;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.box {
+  box-sizing: border-box;
+}
+
+.navigation {
+  height: 60px;
+  width: 100%;
+}
+
+.top {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.navigation-container {
+  height: 36px;
+  width: 310px;
+  margin-top: 10px;
+  margin-right: 40px;
+  float: right;
+}
+
+.navigation-column-left {
+  height: 36px;
+  width: 600.72px;
+  margin-right: 10px;
+}
+
+.navigation-column-left div {
+  color: #505050;
+}
+
+.navigation-column-left a {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: #0077c5;
+}
+
+.navigation-column-right {
+  height: 35px;
+  width: 103px;
+}
+
+.sign-in {
+  height: 34px;
+  width: 102.56px;
+  color: white;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.icon {
+  width: 0.9rem;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.outer-wrapper {
+  width: 380px;
+  margin: auto;
+}
+
+.signup-container {
+  border: solid 1px #c7c7c7;
+  background-color: #fff;
+  color: #666;
+}
+
+.sign-in-button {
+  margin-left: 12px;
+  background-color: #0077c5;
+  color: #fff;
+  border: solid 1px #4c4c4c;
+  border-radius: 4px;
+  width: 110px;
+  height: 36px;
+}
+
+.subsidiaries {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  color: #777;
+}
+
+.subsidiaries span {
+  margin: 5px 0 17px 9px;
+  padding: 0;
+}
+
+.subsidiaries img {
+  width: 25px;
+  height: auto;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.signup-container form {
+  display: block;
+  position: relative;
+  padding: 20px 35px 20px;
+}
+
+.signup-container td {
+  padding: 15px 0 15px;
+}
+
+.signup-container label {
+  font-size: 0.9em;
+}
+
+.signup-container span {
+  font-size: 0.65em;
+}
+
+.my-input {
+  margin: 0 10px 25px;
+}
+
+.signup-container input[type=tel],
+.signup-container input[type=email],
+.signup-container input[type=password] {
+  height: 30px;
+  display: block;
+  width: 100%;
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  margin: 9px 0 0 0;
+}
+
+.signup-container table {
+  width: 100%;
+}
+
+.signup-container button {
+  outline: none;
+  display: block;
+  width: 100%;
+  background-color: #0077c5;
+  color: #fff;
+  border: none;
+  height: 30px;
+  border-radius: 3px;
+  padding-top: 4px;
+  cursor: pointer;
+}
+
+.signup-container button .material-icons,
+.signup-container button span {
+  display: inline-block;
+}
+
+.privacy-terms {
+  display: block;
+  margin: auto;
+  font-size: 0.7em;
+  width: 81%;
+  line-height: 19px;
+  text-align: center;
+}
+
+.intuit-logo {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.headline {
+  padding: 30px 0 10px;
+  text-align: center;
+}
+
+.password {
+  background-image: url('../assets/img/open_lock.png');
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 6%;
+}
+
+.headline a {
+  text-decoration: none;
+}
+
+.headline p {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+.bottom {
+  font-size: 0.65em;
+  background-color: #eceef1;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+}
+
+footer {
+  width: 70%;
+  margin: auto;
+  padding: 35px;
+  text-align: center;
+  font-size: 0.7em;
+  color: #333;
+}
+
+.signup-container button .material-icons {
+  font-size: 1.2em;
+}
+
+.create-acc {
+  display: inline-block;
+  font-size: 1.6em;
+  padding-bottom: 5px;
+  margin: 0 0 6px;
+}
+
+.my-footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+.my-footer ul li {
+  display: inline-block;
+  list-style: none;
+}
